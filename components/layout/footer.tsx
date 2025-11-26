@@ -64,13 +64,7 @@ export function Footer() {
             </ul>
           </div>
 
-          <div>
-            <h3 className="mb-4 font-semibold text-sm sm:text-base">Liên hệ</h3>
-            <ul className="space-y-2 text-xs sm:text-sm text-muted-foreground">
-              <li>Email: support@flood-warning.vn</li>
-              <li>Hotline: 1900-xxxx</li>
-            </ul>
-          </div>
+          
         </div>
 
         <div className="mt-8 sm:mt-12 border-t pt-6 sm:pt-8 text-center text-xs sm:text-sm text-muted-foreground">
