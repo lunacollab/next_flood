@@ -3,7 +3,7 @@ import { API_BASE_URL } from "@/lib/constants";
 import { useState, useEffect, useRef } from "react";
 
 // Cấu hình URL Backend
-const API_URL = `${API_BASE_URL}/community`;
+const API_URL = `https://giamsatluluttruongchinhhn.com/api/v1/community`;
 
 // --- INTERFACES ---
 interface User {
