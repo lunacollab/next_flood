@@ -1,8 +1,9 @@
 "use client";
+import { API_BASE_URL } from "@/lib/constants";
 import { useState, useEffect, useRef } from "react";
 
 // Cấu hình URL Backend
-const API_URL = "http://localhost:8080/api/v1/community";
+const API_URL = `${API_BASE_URL}/community`;
 
 // --- INTERFACES ---
 interface User {

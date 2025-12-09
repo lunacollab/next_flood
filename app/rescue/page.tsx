@@ -9,9 +9,10 @@ import { FloodMap } from "@/components/map/flood-map"
 import { Phone, MapPin, Clock, Navigation, AlertCircle, RefreshCw, Trash2, CheckCircle, PlayCircle, Loader2 } from "lucide-react"
 import { format } from "date-fns"
 import { useRequireAuth } from "@/hooks/use-require-auth"
+import { API_BASE_URL } from "@/lib/constants"
 
 // Địa chỉ API Backend (Dùng 127.0.0.1 để tránh lỗi localhost trên Windows)
-const API_URL = "http://127.0.0.1:8080/api/v1/sos";
+const API_URL = `${API_BASE_URL}/sos`;
 
 // Định nghĩa kiểu dữ liệu SOS khớp với Backend
 type SOSRequest = {

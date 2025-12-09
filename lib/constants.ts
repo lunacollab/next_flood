@@ -1,5 +1,5 @@
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8080/api/v1"
-export const UPLOADS_BASE_URL = process.env.NEXT_PUBLIC_UPLOADS_URL || "http://localhost:8080/uploads"
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL
+export const UPLOADS_BASE_URL = process.env.NEXT_PUBLIC_UPLOADS_URL 
 
 export const PUSHER_APP_KEY = process.env.NEXT_PUBLIC_PUSHER_KEY || ""
 export const PUSHER_CLUSTER = process.env.NEXT_PUBLIC_PUSHER_CLUSTER || "ap1"
